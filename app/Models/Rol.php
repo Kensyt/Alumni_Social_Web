@@ -14,8 +14,8 @@ class Rol extends Model
     protected $fillable = ['name'];
 
     static $admin_id = 3;
-    static $professional_id = 2;
-    static $soci_id = 1;
+    static $manager_id = 2;
+    static $alumni_id = 1;
 
     public function users()
     {
